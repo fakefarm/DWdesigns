@@ -3,12 +3,17 @@
 p, a {
   font-family: "raleway", serif;
   color: #e4e4e4;
-  text-shadow: 1px 1px 2px gray;
-  font-size: 1.2em;
+  text-shadow: 0px 1px 2px black;
+  font-size: 1.3em;
+}
+
+a:hover{
+  color: black;
+  text-decoration:none;
 }
 
 .index{
-  background: url("https://s3.amazonaws.com/dwdesigns/Labs.jpg") no-repeat center center fixed;
+  background: url(https://s3.amazonaws.com/dwdesigns/Labs.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +23,7 @@ p, a {
 
 
 .about{
-  background: url("https://s3.amazonaws.com/dwdesigns/worry.jpg") no-repeat center center fixed;
+  background: url(https://s3.amazonaws.com/dwdesigns/worry.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
